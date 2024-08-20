@@ -32,7 +32,6 @@ s1_filtrado = conv(h,s1); % convolucao entre os sinais
 
 my_fft(s1_filtrado,fsamp);
 
-
 plot(s1_filtrado)
 sound(s1_filtrado, fa);
 
