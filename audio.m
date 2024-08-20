@@ -19,5 +19,3 @@ filename = 'gravacao.wav';
 audiowrite(filename, audioData, fa);
 
 disp(['Áudio salvo em ', filename]);
-
-serio
